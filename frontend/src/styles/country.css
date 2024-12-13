@@ -1,0 +1,36 @@
+.country-container {
+  @apply min-h-screen bg-gray-50 p-8;
+}
+
+.country-card {
+  @apply max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6;
+}
+
+.country-title {
+  @apply text-3xl font-bold mb-4;
+}
+
+.country-flag {
+  @apply w-full md:w-1/3 rounded-lg shadow-lg;
+}
+
+.border-section,
+.population-section {
+  @apply mb-6;
+}
+
+.section-title {
+  @apply text-2xl font-semibold mb-4;
+}
+
+.border-list {
+  @apply grid grid-cols-2 md:grid-cols-3 gap-4;
+}
+
+.border-item {
+  @apply text-lg font-medium text-blue-600 hover:text-blue-800 underline;
+}
+
+.population-chart {
+  @apply bg-gray-100 rounded-lg shadow-md p-4;
+}
